@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph {
+  color: #000000;
+  font-size: 26pxpx;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 30px;
+  }
+}
+
+.button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-color: #ff0b37;
+  border-radius: 5px;
+  margin-left: 20px;
+}
